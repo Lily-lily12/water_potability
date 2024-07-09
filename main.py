@@ -7,7 +7,7 @@ title= "Water Potability Prediction",
 description= "Predicting Water Potability" 
 )
 
-with open("D:\ml_pipeline\model.pkl","rb") as f:
+with open("model.pkl","rb") as f:
     model = pickle.load(f)
 
 @app.get("/")
